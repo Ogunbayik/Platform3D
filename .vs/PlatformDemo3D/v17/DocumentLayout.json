@@ -3,20 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|c:\\users\\ogun\\unityprojects\\platformdemo3d\\assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\assets\\scripts\\gamesignal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamesignal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\assets\\scripts\\trap\\traptrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trap\\traptrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\assets\\scripts\\trap\\behaviours\\moverbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trap\\behaviours\\moverbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|c:\\users\\ogun\\unityprojects\\platformdemo3d\\assets\\scripts\\scriptableobject\\playerdataso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobject\\playerdataso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\assets\\scripts\\trap\\behaviours\\pingpongmover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trap\\behaviours\\pingpongmover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\assets\\scripts\\installers\\gamesettingsinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\installers\\gamesettingsinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\assets\\scripts\\trap\\behaviours\\straightmover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trap\\behaviours\\straightmover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\assets\\scripts\\installers\\inputinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\installers\\inputinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\assets\\scripts\\trap\\behaviours\\onewaymover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trap\\behaviours\\onewaymover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\assets\\scripts\\trap\\trapbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trap\\trapbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|c:\\users\\ogun\\unityprojects\\platformdemo3d\\assets\\scripts\\trap\\moveabletrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trap\\moveabletrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|c:\\users\\ogun\\unityprojects\\platformdemo3d\\assets\\scripts\\trap\\fallabletrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trap\\fallabletrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\assets\\scripts\\installers\\signalinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\installers\\signalinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +54,148 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PlayerDataSO.cs",
-              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\ScriptableObject\\PlayerDataSO.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObject\\PlayerDataSO.cs",
-              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\ScriptableObject\\PlayerDataSO.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ScriptableObject\\PlayerDataSO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "FallableTrap.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Trap\\FallableTrap.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Trap\\FallableTrap.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Trap\\FallableTrap.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Trap\\FallableTrap.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwAoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T14:16:24.912Z",
+              "WhenOpened": "2026-01-23T15:26:33.269Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GameSettingsInstaller.cs",
-              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Installers\\GameSettingsInstaller.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Installers\\GameSettingsInstaller.cs",
-              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Installers\\GameSettingsInstaller.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Installers\\GameSettingsInstaller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "MoveableTrap.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Trap\\MoveableTrap.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Trap\\MoveableTrap.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Trap\\MoveableTrap.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Trap\\MoveableTrap.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T11:21:07.776Z",
+              "WhenOpened": "2026-01-23T15:21:27.964Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Player\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerController.cs",
-              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Player\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAA1wCcAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "TrapBase.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Trap\\TrapBase.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Trap\\TrapBase.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Trap\\TrapBase.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Trap\\TrapBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T13:55:33.789Z",
+              "WhenOpened": "2026-01-23T10:44:14.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OneWayMover.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Trap\\Behaviours\\OneWayMover.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Trap\\Behaviours\\OneWayMover.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Trap\\Behaviours\\OneWayMover.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Trap\\Behaviours\\OneWayMover.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T13:58:33.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StraightMover.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Trap\\Behaviours\\StraightMover.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Trap\\Behaviours\\StraightMover.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Trap\\Behaviours\\StraightMover.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Trap\\Behaviours\\StraightMover.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAB3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T12:10:45.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PingPongMover.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Trap\\Behaviours\\PingPongMover.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Trap\\Behaviours\\PingPongMover.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Trap\\Behaviours\\PingPongMover.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Trap\\Behaviours\\PingPongMover.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T12:30:41.257Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "InputInstaller.cs",
-              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Installers\\InputInstaller.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Installers\\InputInstaller.cs",
-              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Installers\\InputInstaller.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Installers\\InputInstaller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Player\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Player\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAADwv0IAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T13:54:06.835Z",
+              "WhenOpened": "2026-01-23T11:04:32.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MoverBase.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Trap\\Behaviours\\MoverBase.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Trap\\Behaviours\\MoverBase.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Trap\\Behaviours\\MoverBase.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Trap\\Behaviours\\MoverBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T12:03:34.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TrapTrigger.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Trap\\TrapTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Trap\\TrapTrigger.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Trap\\TrapTrigger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Trap\\TrapTrigger.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T10:44:21.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SignalInstaller.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Installers\\SignalInstaller.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Installers\\SignalInstaller.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Installers\\SignalInstaller.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Installers\\SignalInstaller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T09:33:57.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameSignal.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\GameSignal.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameSignal.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\GameSignal.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameSignal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T09:34:25.671Z",
               "EditorCaption": ""
             }
           ]

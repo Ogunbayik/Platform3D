@@ -9,4 +9,9 @@ public static class Const
         public const string HORIZONTAL_INPUT = "Horizontal";
         public const string VERTICAL_INPUT = "Vertical";
     }
+    public class Tag
+    {
+        public const string PLAYER_TAG = "Player";
+        public const string MOVING_PLATFORM_TAG = "MovingPlatform";
+    }
 }

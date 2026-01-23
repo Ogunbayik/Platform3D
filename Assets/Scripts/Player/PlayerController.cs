@@ -6,9 +6,9 @@ using Zenject;
 [RequireComponent(typeof(CharacterController))]
 public class PlayerController : MonoBehaviour
 {
-    private CharacterController _characterController;
+    private const float GRAVITY_FACTOR = -2f;
 
-    [SerializeField] private float gravity = -20f;
+    private CharacterController _characterController;
 
     private IInpuService _input;
     private PlayerDataSO _data;
@@ -25,22 +25,28 @@ public class PlayerController : MonoBehaviour
     private void Awake() => _characterController = GetComponent<CharacterController>();
     private void Update()
     {
+        HandleMovement();
+
+        if (!_characterController.isGrounded)
+            transform.parent = null;
+    }
+    private void HandleMovement()
+    {
         if (_characterController.isGrounded && _velocity.y < 0)
-        {
-            _velocity.y = -2f; // Yere tam yapýþmasý için ufak bir negatif deðer
-        }
+            _velocity.y = GRAVITY_FACTOR;
 
         CalculateMovementVelocity();
 
-
+        HandleJump();
+        _characterController.Move(_velocity * Time.deltaTime);
+    }
+    private void HandleJump()
+    {
         var isJumpPressed = _input.IsJumpPressed();
         if (_characterController.isGrounded && isJumpPressed)
-        {
-            _velocity.y = Mathf.Sqrt(_data.JumpHeight * -2f * gravity);
-        }
+            _velocity.y = Mathf.Sqrt(_data.JumpHeight * GRAVITY_FACTOR * _data.Gravity);
 
-        _velocity.y += gravity * Time.deltaTime;
-        _characterController.Move(_velocity * Time.deltaTime);
+        _velocity.y += _data.Gravity * Time.deltaTime;
     }
     private void CalculateMovementVelocity()
     {
@@ -56,4 +62,9 @@ public class PlayerController : MonoBehaviour
         _velocity.z = _movementDirection.z * _data.MovementSpeed;
     }
 
+    private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        if (hit.gameObject.CompareTag(Const.Tag.MOVING_PLATFORM_TAG))
+            transform.parent = hit.transform;
+    }
 }
