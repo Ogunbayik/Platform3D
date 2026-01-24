@@ -6,7 +6,8 @@ using Zenject;
 [RequireComponent(typeof(CharacterController))]
 public class PlayerController : MonoBehaviour
 {
-    private const float GRAVITY_FACTOR = -2f;
+    [Header("Visual Settings")]
+    [SerializeField] private GameObject _playerVisual;
 
     private CharacterController _characterController;
 
@@ -27,13 +28,16 @@ public class PlayerController : MonoBehaviour
     {
         HandleMovement();
 
+        if (_velocity.sqrMagnitude > 0.1f)
+            HandleRotation(_velocity);
+
         if (!_characterController.isGrounded)
             transform.parent = null;
     }
     private void HandleMovement()
     {
         if (_characterController.isGrounded && _velocity.y < 0)
-            _velocity.y = GRAVITY_FACTOR;
+            _velocity.y = Const.GameConstant.GRAVITY_FACTOR;
 
         CalculateMovementVelocity();
 
@@ -44,9 +48,19 @@ public class PlayerController : MonoBehaviour
     {
         var isJumpPressed = _input.IsJumpPressed();
         if (_characterController.isGrounded && isJumpPressed)
-            _velocity.y = Mathf.Sqrt(_data.JumpHeight * GRAVITY_FACTOR * _data.Gravity);
+            _velocity.y = Mathf.Sqrt(_data.JumpHeight * Const.GameConstant.GRAVITY_FACTOR * Const.GameConstant.GRAVITY);
 
-        _velocity.y += _data.Gravity * Time.deltaTime;
+        _velocity.y += Const.GameConstant.GRAVITY * Time.deltaTime;
+    }
+    private void HandleRotation(Vector3 direction)
+    {
+        direction.y = 0;
+
+        if (direction != Vector3.zero)
+        {
+            Quaternion targetRotation = Quaternion.LookRotation(_movementDirection);
+            _playerVisual.transform.rotation = Quaternion.Slerp(_playerVisual.transform.rotation, targetRotation, 10f * Time.deltaTime);
+        }
     }
     private void CalculateMovementVelocity()
     {
@@ -61,7 +75,6 @@ public class PlayerController : MonoBehaviour
         _velocity.x = _movementDirection.x * _data.MovementSpeed;
         _velocity.z = _movementDirection.z * _data.MovementSpeed;
     }
-
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
         if (hit.gameObject.CompareTag(Const.Tag.MOVING_PLATFORM_TAG))

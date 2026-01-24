@@ -8,10 +8,10 @@ public class PlayerDataSO : ScriptableObject
     [Header("Player Settings")]
     [SerializeField] private float _movementSpeed;
     [SerializeField] private float _jumpHeight;
-    [Header("Gravity Settings")]
-    [SerializeField] private float _gravity;
+    [Header("Interact Settings")]
+    [SerializeField] private float _interactDistance;
 
     public float MovementSpeed => _movementSpeed;
     public float JumpHeight => _jumpHeight;
-    public float Gravity => _gravity;
+    public float InteractDistance => _interactDistance;
 }

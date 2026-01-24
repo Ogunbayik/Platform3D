@@ -64,6 +64,8 @@
     <Compile Include="Assets\Scripts\Trap\Behaviours\StraightMover.cs" />
     <Compile Include="Assets\Scripts\Trap\Behaviours\OneWayMover.cs" />
     <Compile Include="Assets\Scripts\Installers\SignalInstaller.cs" />
+    <Compile Include="Assets\Scripts\Interface\IInteractable.cs" />
+    <Compile Include="Assets\Scripts\Button.cs" />
     <Compile Include="Assets\Scripts\Trap\FallableTrap.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Interface\IInpuService.cs" />
@@ -72,7 +74,9 @@
     <Compile Include="Assets\Scripts\Trap\TrapTrigger.cs" />
     <Compile Include="Assets\Scripts\Trap\Behaviours\PingPongMover.cs" />
     <Compile Include="Assets\Scripts\Trap\Behaviours\MoverBase.cs" />
+    <Compile Include="Assets\Scripts\Platform.cs" />
     <Compile Include="Assets\Scripts\Trap\MoveableTrap.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerInteract.cs" />
     <Compile Include="Assets\Scripts\Trap\TrapBase.cs" />
     <Compile Include="Assets\Scripts\ScriptableObject\PlayerDataSO.cs" />
     <Compile Include="Assets\Scripts\Const.cs" />
@@ -931,6 +935,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1017,6 +1025,10 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
