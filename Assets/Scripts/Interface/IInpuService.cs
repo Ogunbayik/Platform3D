@@ -7,4 +7,5 @@ public interface IInpuService
     float GetHorizontal();
     float GetVertical();
     bool IsJumpPressed();
+    bool IsInteractPressed();
 }

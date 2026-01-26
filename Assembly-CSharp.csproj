@@ -62,23 +62,29 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\GameSignal.cs" />
     <Compile Include="Assets\Scripts\Trap\Behaviours\StraightMover.cs" />
+    <Compile Include="Assets\Scripts\Platform\StaticPlatform.cs" />
     <Compile Include="Assets\Scripts\Trap\Behaviours\OneWayMover.cs" />
     <Compile Include="Assets\Scripts\Installers\SignalInstaller.cs" />
     <Compile Include="Assets\Scripts\Interface\IInteractable.cs" />
-    <Compile Include="Assets\Scripts\Button.cs" />
+    <Compile Include="Assets\Scripts\Platform\BasePlatform.cs" />
+    <Compile Include="Assets\Scripts\Button\ExplicitButton.cs" />
     <Compile Include="Assets\Scripts\Trap\FallableTrap.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Platform\TrapPlatform.cs" />
     <Compile Include="Assets\Scripts\Interface\IInpuService.cs" />
     <Compile Include="Assets\Scripts\Installers\InputInstaller.cs" />
     <Compile Include="Assets\Scripts\KeyboardInput.cs" />
+    <Compile Include="Assets\Scripts\Platform\MovingPlatform.cs" />
     <Compile Include="Assets\Scripts\Trap\TrapTrigger.cs" />
     <Compile Include="Assets\Scripts\Trap\Behaviours\PingPongMover.cs" />
+    <Compile Include="Assets\Scripts\Button\BaseButton.cs" />
     <Compile Include="Assets\Scripts\Trap\Behaviours\MoverBase.cs" />
-    <Compile Include="Assets\Scripts\Platform.cs" />
+    <Compile Include="Assets\Scripts\Button\ImplicitButton.cs" />
     <Compile Include="Assets\Scripts\Trap\MoveableTrap.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerInteract.cs" />
     <Compile Include="Assets\Scripts\Trap\TrapBase.cs" />
     <Compile Include="Assets\Scripts\ScriptableObject\PlayerDataSO.cs" />
+    <Compile Include="Assets\Scripts\Platform\FallingPlatform.cs" />
     <Compile Include="Assets\Scripts\Const.cs" />
     <Compile Include="Assets\Scripts\Installers\GameSettingsInstaller.cs" />
   </ItemGroup>

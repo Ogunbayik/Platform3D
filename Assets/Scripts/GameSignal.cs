@@ -6,12 +6,20 @@ public static class GameSignal
 {
     public class TrapTriggeredSignal
     {
+        //Interacting with Trap Trigger
         public int TrapID;
         public TrapTriggeredSignal(int trapId) => TrapID = trapId;
     }
-    public class InteractButton
+    public class InteractedSignal
     {
-        public int ButtonID;
-        public InteractButton(int buttonID) => ButtonID = buttonID;
+        //Interacting with the button
+        public IInteractable Interactable;
+        public InteractedSignal(IInteractable interactable) => Interactable = interactable;
+    }
+    public class HitFallablePlatformSignal
+    {
+        public FallingPlatform FallingPlatform;
+
+        public HitFallablePlatformSignal(FallingPlatform fallingPlatform) => FallingPlatform = fallingPlatform;
     }
 }

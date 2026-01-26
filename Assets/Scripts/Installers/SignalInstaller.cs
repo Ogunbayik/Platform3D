@@ -7,6 +7,6 @@ public class SignalInstaller : MonoInstaller
     {
         SignalBusInstaller.Install(Container);
         Container.DeclareSignal<GameSignal.TrapTriggeredSignal>();
-        Container.DeclareSignal<GameSignal.InteractButton>();
+        Container.DeclareSignal<GameSignal.InteractedSignal>();
     }
 }

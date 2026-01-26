@@ -59,7 +59,7 @@ public class PlayerController : MonoBehaviour
         if (direction != Vector3.zero)
         {
             Quaternion targetRotation = Quaternion.LookRotation(_movementDirection);
-            _playerVisual.transform.rotation = Quaternion.Slerp(_playerVisual.transform.rotation, targetRotation, 10f * Time.deltaTime);
+            _playerVisual.transform.rotation = Quaternion.Slerp(_playerVisual.transform.rotation, targetRotation, _data.RotationSpeed * Time.deltaTime);
         }
     }
     private void CalculateMovementVelocity()
@@ -79,5 +79,10 @@ public class PlayerController : MonoBehaviour
     {
         if (hit.gameObject.CompareTag(Const.Tag.MOVING_PLATFORM_TAG))
             transform.parent = hit.transform;
+        else
+            transform.parent = null;
+
+        if (hit.gameObject.TryGetComponent<FallingPlatform>(out FallingPlatform fallingPlatform))
+            fallingPlatform.TriggerFall();
     }
 }
