@@ -4,6 +4,8 @@ using UnityEngine;
 
 public static class GameSignal
 {
+    public class DeadTriggerSignal { }
+    public class PlayerRespawnSignal { }
     public class TrapTriggeredSignal
     {
         //Interacting with Trap Trigger
@@ -15,11 +17,5 @@ public static class GameSignal
         //Interacting with the button
         public IInteractable Interactable;
         public InteractedSignal(IInteractable interactable) => Interactable = interactable;
-    }
-    public class HitFallablePlatformSignal
-    {
-        public FallingPlatform FallingPlatform;
-
-        public HitFallablePlatformSignal(FallingPlatform fallingPlatform) => FallingPlatform = fallingPlatform;
     }
 }

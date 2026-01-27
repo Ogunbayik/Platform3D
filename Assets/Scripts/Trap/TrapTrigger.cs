@@ -7,6 +7,7 @@ public class TrapTrigger : MonoBehaviour
 {
     [Header("Trap Settings")]
     [SerializeField] private int _trapID;
+
     private SignalBus _signalBus;
 
     [Inject]

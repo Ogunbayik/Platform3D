@@ -18,7 +18,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9022586183726947033, guid: c6d9f9192c9a26d48a44532fbef3ed01, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9022586183726947033, guid: c6d9f9192c9a26d48a44532fbef3ed01, type: 3}
       propertyPath: m_LocalPosition.y
@@ -26,7 +26,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9022586183726947033, guid: c6d9f9192c9a26d48a44532fbef3ed01, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9022586183726947033, guid: c6d9f9192c9a26d48a44532fbef3ed01, type: 3}
       propertyPath: m_LocalRotation.w
@@ -81,4 +81,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6fc2c537dac0be4098d92f67d3c2a82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _visualTransform: {fileID: 6626327495390318329}
   _platformID: 0
+--- !u!1 &6626327495390318329 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3099400781879819882, guid: c6d9f9192c9a26d48a44532fbef3ed01, type: 3}
+  m_PrefabInstance: {fileID: 8139756225524363411}
+  m_PrefabAsset: {fileID: 0}

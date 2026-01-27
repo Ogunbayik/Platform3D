@@ -13,17 +13,35 @@ public class PlayerController : MonoBehaviour
 
     private IInpuService _input;
     private PlayerDataSO _data;
+    private SignalBus _signalBus;
 
     private Vector3 _movementDirection;
     private Vector3 _velocity;
 
     [Inject]
-    public void Construct(IInpuService input,PlayerDataSO data)
+    public void Construct(IInpuService input,PlayerDataSO data, SignalBus signalBus)
     {
         _input = input;
         _data = data;
+        _signalBus = signalBus;
     }
     private void Awake() => _characterController = GetComponent<CharacterController>();
+    private void OnEnable()
+    {
+        _signalBus.Subscribe<GameSignal.DeadTriggerSignal>(HandleDeadSignal);
+        _signalBus.Subscribe<GameSignal.PlayerRespawnSignal>(HandleRespawnSignal);
+    }
+    private void OnDisable()
+    {
+        _signalBus.Unsubscribe<GameSignal.DeadTriggerSignal>(HandleDeadSignal);
+        _signalBus.Unsubscribe<GameSignal.PlayerRespawnSignal>(HandleRespawnSignal);
+    }
+    private void HandleDeadSignal(GameSignal.DeadTriggerSignal signal) => SetPlayerController(false);
+    private void HandleRespawnSignal(GameSignal.PlayerRespawnSignal signal) => SetPlayerController(true);
+    private void SetPlayerController(bool isActive)
+    {
+        _characterController.enabled = isActive;
+    }
     private void Update()
     {
         HandleMovement();
@@ -74,15 +92,5 @@ public class PlayerController : MonoBehaviour
 
         _velocity.x = _movementDirection.x * _data.MovementSpeed;
         _velocity.z = _movementDirection.z * _data.MovementSpeed;
-    }
-    private void OnControllerColliderHit(ControllerColliderHit hit)
-    {
-        if (hit.gameObject.CompareTag(Const.Tag.MOVING_PLATFORM_TAG))
-            transform.parent = hit.transform;
-        else
-            transform.parent = null;
-
-        if (hit.gameObject.TryGetComponent<FallingPlatform>(out FallingPlatform fallingPlatform))
-            fallingPlatform.TriggerFall();
     }
 }

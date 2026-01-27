@@ -8,5 +8,7 @@ public class SignalInstaller : MonoInstaller
         SignalBusInstaller.Install(Container);
         Container.DeclareSignal<GameSignal.TrapTriggeredSignal>();
         Container.DeclareSignal<GameSignal.InteractedSignal>();
+        Container.DeclareSignal<GameSignal.DeadTriggerSignal>();
+        Container.DeclareSignal<GameSignal.PlayerRespawnSignal>();
     }
 }
