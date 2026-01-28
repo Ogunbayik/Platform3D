@@ -3,15 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|c:\\users\\ogun\\unityprojects\\platformdemo3d\\assets\\scripts\\notificationfeedview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\notificationfeedview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ogun\\UnityProjects\\Unitask-Practice\\Assets\\Scripts\\UniTaskBasic\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\assets\\scripts\\deadtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\deadtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|c:\\users\\ogun\\unityprojects\\platformdemo3d\\assets\\scripts\\player\\playerphysicshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerphysicshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\assets\\scripts\\const.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\const.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ogun\\UnityProjects\\Unitask-Practice\\Assets\\Scripts\\UniTaskBasic\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\assets\\scripts\\managers\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|c:\\users\\ogun\\unityprojects\\platformdemo3d\\assets\\scripts\\checkpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\checkpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\assets\\scripts\\installers\\signalinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,24 +42,24 @@
       "RelativeMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\checkpointmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\assets\\scripts\\player\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\assets\\scripts\\deadtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\deadtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\assets\\scripts\\managers\\checkpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\checkpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\assets\\scripts\\installers\\inputinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\installers\\inputinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\assets\\scripts\\player\\playerphysicshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerphysicshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\assets\\scripts\\player\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\assets\\scripts\\platform\\crumblingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60555076-68FC-36FB-76C6-B4776A91AD8C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\platform\\crumblingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\assets\\scripts\\managers\\checkpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\managers\\checkpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,12 +74,77 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "NotificationFeedView.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\NotificationFeedView.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NotificationFeedView.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\NotificationFeedView.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NotificationFeedView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T15:16:50.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SignalInstaller.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Installers\\SignalInstaller.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Installers\\SignalInstaller.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Installers\\SignalInstaller.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Installers\\SignalInstaller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T13:38:02.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Checkpoint.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Checkpoint.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Checkpoint.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Checkpoint.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Checkpoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T15:20:00.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CameraManager.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Managers\\CameraManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\CameraManager.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Managers\\CameraManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\CameraManager.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwB0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T09:28:24.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Const.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Const.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Const.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Const.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Const.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwCEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T14:46:20.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Player\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerController.cs",
               "ToolTip": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Player\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAiwCoAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAAC8AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-27T09:51:13.233Z",
               "EditorCaption": ""
@@ -71,80 +152,70 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "DeadTrigger.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\DeadTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DeadTrigger.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\DeadTrigger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DeadTrigger.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAEwBAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T13:28:14.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\Unitask-Practice\\Assets\\Scripts\\UniTaskBasic\\GameManager.cs",
               "RelativeDocumentMoniker": "..\\Unitask-Practice\\Assets\\Scripts\\UniTaskBasic\\GameManager.cs",
               "ToolTip": "C:\\Users\\ogun\\UnityProjects\\Unitask-Practice\\Assets\\Scripts\\UniTaskBasic\\GameManager.cs",
               "RelativeToolTip": "..\\Unitask-Practice\\Assets\\Scripts\\UniTaskBasic\\GameManager.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-27T14:25:45.159Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "PlayerPhysicsHandler.cs",
               "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Player\\PlayerPhysicsHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerPhysicsHandler.cs",
               "ToolTip": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Player\\PlayerPhysicsHandler.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerPhysicsHandler.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwB0AAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAA1wB0AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T10:29:16.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-27T10:29:16.391Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "CheckpointManager.cs",
               "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Managers\\CheckpointManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\CheckpointManager.cs",
               "ToolTip": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Managers\\CheckpointManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Managers\\CheckpointManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T09:31:13.384Z"
+              "WhenOpened": "2026-01-27T09:31:13.384Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DeadTrigger.cs",
-              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\DeadTrigger.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DeadTrigger.cs",
-              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\DeadTrigger.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DeadTrigger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T13:28:14.987Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "GameSignal.cs",
               "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\GameSignal.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameSignal.cs",
               "ToolTip": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\GameSignal.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameSignal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T13:38:19.085Z"
+              "WhenOpened": "2026-01-27T13:38:19.085Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SignalInstaller.cs",
-              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Installers\\SignalInstaller.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Installers\\SignalInstaller.cs",
-              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Installers\\SignalInstaller.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Installers\\SignalInstaller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T13:38:02.897Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "Checkpoint.cs",
               "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Managers\\Checkpoint.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\Checkpoint.cs",
@@ -156,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "InputInstaller.cs",
               "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Installers\\InputInstaller.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Installers\\InputInstaller.cs",
@@ -168,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "PlayerInteract.cs",
               "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Player\\PlayerInteract.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerInteract.cs",
@@ -180,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "CrumblingPlatform.cs",
               "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\PlatformDemo3D\\Assets\\Scripts\\Platform\\CrumblingPlatform.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Platform\\CrumblingPlatform.cs",

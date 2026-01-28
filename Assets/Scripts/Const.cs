@@ -23,4 +23,14 @@ public static class Const
         public const string PLAYER_TAG = "Player";
         public const string MOVING_PLATFORM_TAG = "MovingPlatform";
     }
+    public class CameraPriority
+    {
+        public const int ACTIVE_PRIORITY = 10;
+        public const int INACTIVE_PRIORITY = 1;
+    }
+    public class NotificationAlpha
+    {
+        public const float ACTIVE_ALPHA = 1f;
+        public const float INACTIVE_ALPHA = 0f;
+    }
 }

@@ -4,8 +4,14 @@ using UnityEngine;
 
 public static class GameSignal
 {
-    public class DeadTriggerSignal { }
+    public class PlayerDiedSignal { }
     public class PlayerRespawnSignal { }
+    public class PlayerReachCheckpointSignal 
+    {
+        //Sharing Checkpoint Position
+        public Transform Checkpoint;
+        public PlayerReachCheckpointSignal(Transform checkpoint) => Checkpoint = checkpoint;
+    }        
     public class TrapTriggeredSignal
     {
         //Interacting with Trap Trigger

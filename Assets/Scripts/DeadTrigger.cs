@@ -9,14 +9,12 @@ public class DeadTrigger : MonoBehaviour
 
     [Inject]
     public void Construct(SignalBus signalBus) => _signalBus = signalBus;
-
-
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag(Const.Tag.PLAYER_TAG))
         {
             Debug.Log("Triggered");
-            _signalBus.Fire(new GameSignal.DeadTriggerSignal());
+            _signalBus.Fire(new GameSignal.PlayerDiedSignal());
         }
     }
 }

@@ -15,9 +15,9 @@ public class PlayerPhysicsHandler : MonoBehaviour
         _signalBus = signalBus;
         _checkPointManager = checkPointManager;
     }
-    private void OnEnable() => _signalBus.Subscribe<GameSignal.DeadTriggerSignal>(HandleDeadTrigger);
-    private void OnDisable() => _signalBus.Unsubscribe<GameSignal.DeadTriggerSignal>(HandleDeadTrigger);
-    private void HandleDeadTrigger(GameSignal.DeadTriggerSignal signal) => RespawnSequence();
+    private void OnEnable() => _signalBus.Subscribe<GameSignal.PlayerDiedSignal>(HandleDeadTrigger);
+    private void OnDisable() => _signalBus.Unsubscribe<GameSignal.PlayerDiedSignal>(HandleDeadTrigger);
+    private void HandleDeadTrigger(GameSignal.PlayerDiedSignal signal) => RespawnSequence();
     private async void RespawnSequence()
     {
         var token = this.GetCancellationTokenOnDestroy();

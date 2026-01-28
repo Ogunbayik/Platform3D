@@ -28,15 +28,15 @@ public class PlayerController : MonoBehaviour
     private void Awake() => _characterController = GetComponent<CharacterController>();
     private void OnEnable()
     {
-        _signalBus.Subscribe<GameSignal.DeadTriggerSignal>(HandleDeadSignal);
+        _signalBus.Subscribe<GameSignal.PlayerDiedSignal>(HandleDeadSignal);
         _signalBus.Subscribe<GameSignal.PlayerRespawnSignal>(HandleRespawnSignal);
     }
     private void OnDisable()
     {
-        _signalBus.Unsubscribe<GameSignal.DeadTriggerSignal>(HandleDeadSignal);
+        _signalBus.Unsubscribe<GameSignal.PlayerDiedSignal>(HandleDeadSignal);
         _signalBus.Unsubscribe<GameSignal.PlayerRespawnSignal>(HandleRespawnSignal);
     }
-    private void HandleDeadSignal(GameSignal.DeadTriggerSignal signal) => SetPlayerController(false);
+    private void HandleDeadSignal(GameSignal.PlayerDiedSignal signal) => SetPlayerController(false);
     private void HandleRespawnSignal(GameSignal.PlayerRespawnSignal signal) => SetPlayerController(true);
     private void SetPlayerController(bool isActive)
     {
@@ -44,7 +44,8 @@ public class PlayerController : MonoBehaviour
     }
     private void Update()
     {
-        HandleMovement();
+        if (_characterController != null && _characterController.enabled)
+            HandleMovement();
 
         if (_velocity.sqrMagnitude > 0.1f)
             HandleRotation(_velocity);
