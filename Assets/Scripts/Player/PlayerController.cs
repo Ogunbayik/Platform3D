@@ -19,13 +19,13 @@ public class PlayerController : MonoBehaviour
     private Vector3 _velocity;
 
     [Inject]
-    public void Construct(IInpuService input,PlayerDataSO data, SignalBus signalBus)
+    public void Construct(IInpuService input,PlayerDataSO data, SignalBus signalBus, CharacterController characterController)
     {
         _input = input;
         _data = data;
         _signalBus = signalBus;
+        _characterController = characterController;
     }
-    private void Awake() => _characterController = GetComponent<CharacterController>();
     private void OnEnable()
     {
         _signalBus.Subscribe<GameSignal.PlayerDiedSignal>(HandleDeadSignal);
@@ -36,12 +36,13 @@ public class PlayerController : MonoBehaviour
         _signalBus.Unsubscribe<GameSignal.PlayerDiedSignal>(HandleDeadSignal);
         _signalBus.Unsubscribe<GameSignal.PlayerRespawnSignal>(HandleRespawnSignal);
     }
-    private void HandleDeadSignal(GameSignal.PlayerDiedSignal signal) => SetPlayerController(false);
-    private void HandleRespawnSignal(GameSignal.PlayerRespawnSignal signal) => SetPlayerController(true);
-    private void SetPlayerController(bool isActive)
+    private void HandleDeadSignal(GameSignal.PlayerDiedSignal signal)
     {
-        _characterController.enabled = isActive;
+        _velocity = Vector3.zero;
+        SetPlayerController(false);
     }
+    private void HandleRespawnSignal(GameSignal.PlayerRespawnSignal signal) => SetPlayerController(true);
+    private void SetPlayerController(bool isActive) => _characterController.enabled = isActive;
     private void Update()
     {
         if (_characterController != null && _characterController.enabled)
@@ -61,6 +62,7 @@ public class PlayerController : MonoBehaviour
         CalculateMovementVelocity();
 
         HandleJump();
+
         _characterController.Move(_velocity * Time.deltaTime);
     }
     private void HandleJump()

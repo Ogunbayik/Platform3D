@@ -11,10 +11,16 @@ public class BaseButton : MonoBehaviour, IInteractable
 
     private SignalBus _signalBus;
 
+    protected bool _canInteract = true;
+    public bool CanInteract => _canInteract;
+    public int ID => _buttonID;
+
     [Inject]
     public void Construct(SignalBus signalBus) => _signalBus = signalBus;
 
-    public virtual void Interact() => _signalBus.Fire(new GameSignal.InteractedSignal(this));
-    
-    public int ID => _buttonID;
+    public virtual void Interact()
+    {
+        _signalBus.Fire(new GameSignal.InteractedSignal(this));
+    }
+
 }

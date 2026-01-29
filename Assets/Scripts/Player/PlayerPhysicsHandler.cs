@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Zenject;
 using Cysharp.Threading.Tasks;
+using System;
 
 public class PlayerPhysicsHandler : MonoBehaviour
 {
@@ -17,8 +18,8 @@ public class PlayerPhysicsHandler : MonoBehaviour
     }
     private void OnEnable() => _signalBus.Subscribe<GameSignal.PlayerDiedSignal>(HandleDeadTrigger);
     private void OnDisable() => _signalBus.Unsubscribe<GameSignal.PlayerDiedSignal>(HandleDeadTrigger);
-    private void HandleDeadTrigger(GameSignal.PlayerDiedSignal signal) => RespawnSequence();
-    private async void RespawnSequence()
+    private void HandleDeadTrigger(GameSignal.PlayerDiedSignal signal) => RespawnSequence().Forget();
+    private async UniTaskVoid RespawnSequence()
     {
         var token = this.GetCancellationTokenOnDestroy();
 
@@ -31,7 +32,6 @@ public class PlayerPhysicsHandler : MonoBehaviour
     }
     public IEnumerator HandleTest()
     {
-        Debug.Log("Need Teleport");
         yield return new WaitForSeconds(2f);
         Debug.Log("Need Teleport");
         transform.position = _checkPointManager.CheckpointPosition;
@@ -46,7 +46,7 @@ public class PlayerPhysicsHandler : MonoBehaviour
     {
         if (hit.gameObject.CompareTag(Const.Tag.MOVING_PLATFORM_TAG))
         {
-            if (transform.parent != null)
+            if (transform.parent == null)
                 transform.parent = hit.transform;
         }
         else

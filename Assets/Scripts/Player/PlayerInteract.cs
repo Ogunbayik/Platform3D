@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,6 +7,9 @@ using Zenject;
 public class PlayerInteract : MonoBehaviour
 {
     private IInpuService _input;
+
+    public event Action<Vector3,bool> OnTargetInteractable;
+    public event Action OnPlayerInteract;
 
     [Inject]
     public void Construct(IInpuService input) => _input = input; 
@@ -17,8 +21,21 @@ public class PlayerInteract : MonoBehaviour
         Ray ray = new Ray(_playerVisual.position, _playerVisual.forward);
         if(Physics.Raycast(ray,out RaycastHit hitInfo, Const.PlayerConstant.INTERACT_DISTANCE))
         {
-            if (hitInfo.transform.TryGetComponent<IInteractable>(out IInteractable interactable) && _input.IsInteractPressed())
-                interactable.Interact();
+            if (hitInfo.transform.TryGetComponent<IInteractable>(out IInteractable interactable))
+            {
+                if (interactable.CanInteract)
+                    OnTargetInteractable?.Invoke(hitInfo.transform.position, true);
+
+                if (_input.IsInteractPressed())
+                {
+                    interactable.Interact();
+                    OnPlayerInteract?.Invoke();
+                }
+            }
+        }
+        else
+        {
+            OnTargetInteractable?.Invoke(Vector3.zero, false);
         }
     }
     private void OnDrawGizmos()

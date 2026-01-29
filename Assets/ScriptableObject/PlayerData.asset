@@ -15,4 +15,4 @@ MonoBehaviour:
   _movementSpeed: 5
   _rotationSpeed: 7.5
   _jumpHeight: 2
-  _interactDistance: 1
+  _respawnOffset: {x: 0, y: 5, z: -1}

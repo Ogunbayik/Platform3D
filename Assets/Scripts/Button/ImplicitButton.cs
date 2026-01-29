@@ -4,5 +4,9 @@ using UnityEngine;
 
 public class ImplicitButton : BaseButton
 {
-
+    public override void Interact()
+    {
+        base.Interact();
+        _canInteract = false;
+    }
 }
